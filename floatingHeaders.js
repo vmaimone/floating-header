@@ -55,7 +55,6 @@
         }
 
         this.each(function() {
-
             /// Initialization. These vars don't change
             var $table = $(this).addClass("floating-table");
             var $header = $table.find('thead tr').addClass("floating-header");
@@ -77,10 +76,7 @@
             $(window).scroll(function() {
                 scrollFunction($table, tblHeight, offsetTop)
             }).trigger("scroll");
-
-
         });
-        
         
         return this
     };
@@ -90,7 +86,5 @@
         backgroundColor: 'white',
         startRow: 1
     };
-
-
-
+    
 })(jQuery);
