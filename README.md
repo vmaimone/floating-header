@@ -613,4 +613,4 @@ This is a place for my javascript code
 </tr>
 </tbody>
 </table>
-<script> $('#table').floatHeaders();</script>
+<script> $(document).ready(function(){ $('#table').floatHeaders(); })</script>
