@@ -1,7 +1,7 @@
 This is a place for my javascript code
 
 <script src="https://raw.githubusercontent.com/vmaimone/js/master/floatingHeaders.js"></script>
-<table id="table" cellpadding="1" cellspacing="1">
+<table id="myTable" cellpadding="1" cellspacing="1">
 <thead>
 <tr>
 	<th>Column 1</th>
@@ -613,4 +613,4 @@ This is a place for my javascript code
 </tr>
 </tbody>
 </table>
-<script> $(document).ready(function(){ $('#table').floatHeaders(); })</script>
+<script> $(document).ready(function(){ $('#myTable').floatHeaders(); })</script>
