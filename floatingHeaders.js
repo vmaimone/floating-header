@@ -65,7 +65,7 @@
             var offsetTop = $table.offset().top;
             getFloatingHeader($table);
 
-            /// Bind the recalculation of the header to the customer resizeEnd event
+            /// Bind the recalculation of the header to the custom resizeEnd event
             $(window).bind('recalculateHeaders', function() {
                 $table.find('.floatingHeader').remove();
                 getFloatingHeader($table)
