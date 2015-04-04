@@ -1,1 +1,1 @@
-This is a place for my javascript code
+A light weight angular module to keep table headers anchored to the top of the window while scrolling through a grid of data. This module was inspired by the 'freeze headers' option in Microsoft Excel.
